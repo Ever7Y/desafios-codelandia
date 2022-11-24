@@ -1,0 +1,62 @@
+h1{
+    font-family: Verdana, sans-serif;
+    font-size:30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+body {
+    font-family: Verdana, sans-serif;
+    font-size: 0.8em;
+    margin: 0px;
+    background: linear-gradient(100deg,rgb(2, 255, 192),rgb(0, 217, 255)); 
+  }
+
+
+main{
+    margin-top:100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    text-align: center;
+    width:350px;
+    height:550px;
+    border:solid 2px rgb(255, 255, 255);
+    border-radius:20px 20px 20px 20px;
+    
+}
+
+button{
+    width: 50px;
+    height: 50px;
+    border:solid 1px;
+    margin:1px;
+    background-color:rgb(0,0,0);
+    cursor:pointer;
+    color:rgb(255, 255, 255)
+
+  
+}
+button:hover{
+    background-color:rgba(14, 145, 134, 0.719);
+}
+#igual{
+    width: 105px;
+}
+#apaga{
+    width: 110px;
+}
+
+
+p{
+    margin-left: 60px;
+    width: 230px;
+    height: 50px;
+    font-size: 30px;
+    text-align: right;
+    align-content: center;
+    border: solid 1px rgb(255, 255, 255);
+    background-color: rgb(194, 194, 194);
+    border-radius: 10px 10px 10px 10px;
+
+}
