@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{   
+ background: linear-gradient(270deg, #1a4855 0%, #628e75 100%);   
+}
+
+.menu-vertical{
+    display:inline;
+    
+}
+
+h1{
+    display: block;
+    width: 940px;
+    margin:15px 120px;
+
+}
+
+h1 img{
+    width: 93px;
+    height: 43px; 
+    margin: 0 10px;
+    top: 5px;
+}
+
+.menu-vertical{
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+    right: 120px;
+    top: 5px;
+	
+}
+
+nav li{
+    display: inline;
+    margin:0 20px;
+    align-items:center;
+    transition:  2s;
+    
+}
+
+main{
+    display: inline;
+    width: 940px;
+    left:40px;
+
+}
+
+.texto-principal{
+    position: relative;
+    width: 500px;
+    height: 450px;
+    top:190px;
+    left:130px;
+}
+
+.imagem-principal{
+    position:absolute;
+    right: 130px;
+    top: 200px;
+}
+
+.imagem-principal img{
+    width: 500px;
+    height: 450px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 23px;
+    padding: 10px 0;
+    
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 63px;
+    font-weight: 900;
+    line-height: 60px;
+    margin-bottom: 15px;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.caixa{
+    width: 100%;
+    margin:20px 0 0 20px;
+    transform: skew(-20deg);
+    
+}
+
+.botao1 img{
+    position: relative;
+    margin-right:4px ;
+    top:1px;
+    width: 15px;
+    height: 15px;
+
+}
+
+.botao1{
+    display: inline;
+    border: 1px solid #658e76;
+    background-color: #658e76;
+    padding: 13px 45px;
+    margin-right: 50px;
+       
+}
+
+.botao1 a{
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    color: #ffffff;
+    
+}
+
+.botao2{
+    display: inline;
+    border: 0.5px solid #658e76;
+    padding: 13px 45px;
+    
+    
+}
+
+.botao2 a{
+    text-decoration: none;
+    font-family:'Poppins', sans-serif;
+    color: #ffffff;
+    
+    
+}
+
+.botao1:hover{
+    background-color:rgba(98, 142, 117,0);
+    transition: 0.5s;   
+    cursor: pointer;
+}
+
+.botao2:hover{
+    background-color: #658e76;
+    transition: 0.5s;
+}
+
+ul img:hover{
+    position: relative;
+    transition:0.3s;
+    transform: translateX(0) scale(1.1);
+    
+    
+}
+
+
+.imagem-principal img { 
+    animation-name: flutuando;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+ 
+@keyframes flutuando {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 15px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+
